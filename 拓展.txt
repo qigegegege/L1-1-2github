@@ -1,0 +1,22 @@
+1、短路运算符
+2、逗号运算符
+3、函数与变量同名
+4、函数参数arguments
+5、数组方法的返回值  console.log( arr.splice(1,2))
+6、函数按值传递
+7、对象的访问方法
+8、函数同名、变量函数同名、变量提升、字符串/正则的replace
+
+9、数字字符串之前存在数字中的正负号(+/-)时，会被转换成数字
+10、让密码域更安全，禁止复制，剪切。右键之后复制，剪切为灰色。
+     <input type="password" oncopy="return false" oncut="return false"/>
+
+11、字符串 和正则 replace
+      http://www.w3school.com.cn/jsref/jsref_replace.asp
+      用正则怎样去掉重复的字符串，只保留一个
+      var str= "aaaebbbcccddd";
+      str = str.replace(/(.)\1+/g,'$1')
+      alert(str)
+12、正则表达式出现的\1代表什么意思？
+     判断一个字符串中出现次数最多的字符，并统计次数
+     https://www.cnblogs.com/blank-string/p/6001530.html
